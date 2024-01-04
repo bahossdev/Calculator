@@ -1,0 +1,80 @@
+:root {
+    --buttonshadow: rgb(133, 140, 178);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    margin: auto;
+    background-image: url('../images/calc.jpeg');
+}
+
+/* header {
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+} */
+
+h1 {
+    font-family: 'Rubik Maps', system-ui;    font-size: 2.5rem;
+    font-weight:100;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(8, 70, 83);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.result {
+    font-size: 1.5rem;
+    display: block;
+    background-color: rgb(232, 250, 251);
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 2px 2px 3px var(--buttonshadow);
+    min-width: 200px;
+    max-width: 300px; 
+    margin: auto;   
+}
+
+button:hover {
+    background-color: rgb(232, 250, 251);
+    box-shadow: 3px 3px 5px var(--buttonshadow);
+    color: grey;
+}
+
+button:active {
+    background-color: rgb(244, 182, 217);
+    box-shadow: inset 3px 3px 5px var(--buttonshadow);
+    color: grey;
+}
+
+.numbers {
+    margin: auto;
+}
+
+.number {
+    font-size: 2rem;
+    background-color: rgb(127, 194, 196);
+    border: 1px solid rgb(75, 75, 98);
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 2px 2px 3px var(--buttonshadow);
+}
