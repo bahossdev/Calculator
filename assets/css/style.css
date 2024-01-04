@@ -1,5 +1,5 @@
 :root {
-    --buttonshadow: rgb(133, 140, 178);
+    --buttonshadow: rgb(3, 38, 3);
 }
 
 *,
@@ -16,15 +16,20 @@ html {
     background-image: url('../images/calc.jpeg');
 }
 
-/* header {
-    background-size: cover;
-    height: 150px;
-    width: 100%;
-} */
+body {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+header {
+    display: block;
+}
 
 h1 {
-    font-family: 'Rubik Maps', system-ui;    font-size: 2.5rem;
-    font-weight:100;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 3rem;
     color: white;
     text-shadow: 3px 3px 5px rgb(8, 70, 83);
     text-align: center;
@@ -33,9 +38,20 @@ h1 {
 }
 
 main {
+    background-color: rgba(240, 255, 255, 0.422);
+    max-width: 380px;
+    max-height: 800px;
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin: auto;
+}
+
+main:hover {
+    box-shadow: 3px 3px 7px white;
+    background-color: rgba(240, 255, 255, 0.555);
 }
 
 .result {
@@ -45,9 +61,9 @@ main {
     border-radius: 20px;
     padding: 12px;
     box-shadow: 2px 2px 3px var(--buttonshadow);
-    min-width: 200px;
-    max-width: 300px; 
-    margin: auto;   
+    width: 310px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 button:hover {
@@ -57,18 +73,26 @@ button:hover {
 }
 
 button:active {
-    background-color: rgb(244, 182, 217);
+    background-color: rgb(252, 228, 242);
     box-shadow: inset 3px 3px 5px var(--buttonshadow);
     color: grey;
 }
 
-.numbers {
+.buttons {
     margin: auto;
 }
 
 .number {
-    font-size: 2rem;
     background-color: rgb(127, 194, 196);
+}
+
+.operator {
+    background-color: rgb(105, 191, 102);
+}
+
+.number,
+.operator {
+    font-size: 2rem;
     border: 1px solid rgb(75, 75, 98);
     border-radius: 20px;
     margin: 10px;
@@ -76,5 +100,12 @@ button:active {
     padding-bottom: 10px;
     padding-left: 16px;
     padding-right: 16px;
-    box-shadow: 2px 2px 3px var(--buttonshadow);
+    box-shadow: 4px 4px 3px var(--buttonshadow);
+    width: 60px;
+    height: 60px;
+}
+
+#clear {
+    font-size: 1.3rem;
+    line-height: 44px;
 }
