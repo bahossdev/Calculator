@@ -54,7 +54,7 @@ Please refer to the license in the repository for detailed information on the li
 
 ## Deployment
 
-Online Calculator is deployed on [GitHub](https://bahossdev.github.io/Calculator/).
+[Online Calculator](https://bahossdev.github.io/Calculator/) is deployed on GitHub pages.
 
 ## Repository
 
