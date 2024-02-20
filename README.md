@@ -28,7 +28,7 @@ N/A
 
 ## How to Use
 
-You can simply use the application on GitHub, at [Online Calculator]().
+You can simply use the application on GitHub, at [Online Calculator](https://bahossdev.github.io/Calculator/).
 To review the code and explore further:
 
 1.  Clone the repository: `git clone https://github.com/bahossdev/Calculator.git`
@@ -50,7 +50,7 @@ Please refer to the license in the repository for detailed information on the li
 
 ## Deployment
 
-Online Calculator is deployed on [GitHub]().
+Online Calculator is deployed on [GitHub](https://bahossdev.github.io/Calculator/).
 
 ## Repository
 
@@ -61,3 +61,4 @@ Online Calculator is deployed on [GitHub]().
 If you have any questions or feedback, feel free to contact me by [email](mailto:bahossdev@gmail.com).
 
 ## Screenshot
+![screenshot](https://github.com/bahossdev/Calculator/assets/148646212/87560d7a-3f06-4043-b7b5-6f0d4f08da9f)
