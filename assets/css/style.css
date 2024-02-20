@@ -83,16 +83,20 @@ button:active {
     margin: auto;
 }
 
-.number {
+.number,
+.equal {
     background-color: rgb(127, 194, 196);
 }
 
-.operator {
+.operator,
+#clear {
     background-color: rgb(105, 191, 102);
 }
 
 .number,
-.operator {
+.operator,
+.equal,
+#clear {
     font-size: 2rem;
     border: 1px solid rgb(75, 75, 98);
     border-radius: 20px;
