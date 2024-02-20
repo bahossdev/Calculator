@@ -1,4 +1,8 @@
 # Online Calculator 🧮
+[![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
+[![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white)](https://www.ecma-international.org/ecma-262/6.0/)
+
 
 ## Description
 Online Calculator is a simple web-based calculator application built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as calculate percentages.
@@ -40,9 +44,9 @@ To review the code and explore further:
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
+- [![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
+- [![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+- [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white)](https://www.ecma-international.org/ecma-262/6.0/)
 
 ## License
 
